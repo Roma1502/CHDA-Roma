@@ -1,18 +1,20 @@
 
 USE RetailPro;
-DROP TABLE IF EXISTS Clientes;
+
+DROP TABLE IF EXISTS clientes;
 CREATE TABLE clientes(
-id_cliente int NOT NULL PRIMARY KEY, 
-nombre varchar(100) NOT NULL,
-perfil_bio varchar(255) NOT NULL,
-fecha_registro date NOT NULL,
+  cliente_id INT NOT NULL PRIMARY KEY,    -- INT porque es un identificador numérico único
+  nombre VARCHAR(100) NOT NULL,          -- VARCHAR porque el nombre es texto de longitud acotada
+  perfil_bio TEXT NOT NULL,              -- TEXT porque el campo requiere texto largo (no un límite fijo como VARCHAR)
+  fecha_registro DATE NOT NULL           -- DATE porque se necesita la fecha (sin hora)
 );
 
-DROP TABLE IF EXISTS Productos;
+DROP TABLE IF EXISTS productos;
 CREATE TABLE productos(
-id_producto int NOT NULL PRIMARY KEY,
-descripcion  varchar(255) NOT NULL, 
-precio DECIMAL(10,2) NOT NULL, 
-esta_activo BIT,
+  producto_id INT NOT NULL PRIMARY KEY,  -- INT porque es un identificador numérico único
+  descripcion VARCHAR(255) NOT NULL,     -- VARCHAR porque la descripción es texto con longitud razonable
+  precio DECIMAL(10,2) NOT NULL,        -- DECIMAL con 2 decimales porque se modela dinero con precisión
+  esta_activo BIT                        -- BIT porque representa un estado binario (activo/inactivo)
 );
-SELECT DB_NAME() AS CurrentDatabase;
+
+SELECT DB_NAME() AS current_database;
