@@ -4,7 +4,7 @@ Proyecto de análisis de ventas para **RetailPro**, construido en el curso de An
 
 El objetivo es que cualquier analista nuevo pueda entender el proyecto, reproducir los resultados y continuarlo sin depender de quien lo creó.
 
-**Autora:** Roma (Roma1502)  
+**Autora:** Roma (Roma1502)  - Romina Rossi
 **Base de datos:** `Ventas_Tech_DB`  
 **Motor:** Microsoft SQL Server (SSMS)
 
