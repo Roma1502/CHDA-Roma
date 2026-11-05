@@ -145,3 +145,9 @@ Limitaciones conocidas
 Las consultas de la Pre-entrega 4 y de la Pre-entrega 5 usan nombres de columnas distintos (ver sección Importante).
 Las consultas mensuales agrupan solo con MONTH(). Si la tabla abarca más de un año, hay que agrupar también por año; si no, se mezclan los mismos meses de años distintos.
 El modelo de Power BI no incluye la hoja territorios del Excel. Para analizar por territorio hay que cargarla y relacionarla con Dim_Clientes por ciudad.
+Cómo continuar el proyecto
+Estandarizar nombres de columnas entre la Pre-entrega 4 y la 5 en una capa de vista.
+Cargar territorios en el modelo de Power BI.
+Agregar margen o costo por producto para pasar de facturación a rentabilidad.
+Construir el dashboard en Power BI siguiendo el boceto de la Pre-entrega 7.
+Documentar cada nuevo cálculo con su fuente.
