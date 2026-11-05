@@ -12,13 +12,15 @@ Herramientas usadas
 SQL Server (SSMS): consultas, JOINs, agregaciones, vistas.
 Power BI: Power Query (ETL), modelo de datos con relaciones, tabla calendario y medidas DAX.
 Excel: fuente del dataset de Power BI y controles manuales.
-IA (versiones gratuitas): [COMPLETAR: herramientas de IA que realmente usaste]. Se usó para borradores de documentación y revisión de SQL. Todos los resultados fueron verificados manualmente.
+IA (versiones gratuitas): Claude, Meta, ChatGPT. Se usó para borradores de documentación y revisión de SQL. Todos los resultados fueron verificados manualmente.
 No se usaron modelos predictivos ni Machine Learning: están fuera del alcance del curso.
+
 Estructura del repositorio
 Pre-entrega 4: consultas SQL de negocio (Entrega_4_Romina_Rossi.sql)
 Pre-entrega 5: consultas con JOINs (Entrega_5_Romina_Rossi.sql)
 Power BI: Pipeline_ETL_Rossi_Romina.pbix (ETL) y Rossi_Romina_Checkpoint2.pbix (modelo y medidas)
 Pre-entrega 9: documentación y trazabilidad
+
 Cómo ejecutar los scripts SQL
 1. Preparar la base
 
